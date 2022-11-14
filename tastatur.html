@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastatur</title>
+</head>
+
+<body>
+    <div id="output"></div>
+    <button onclick="bokstaver(this.innerHTML)">A</button>
+    <button onclick="bokstaver(this.innerHTML)">B</button>
+    <button onclick="bokstaver(this.innerHTML)">C</button>
+    <button onclick="bokstaver(this.innerHTML)">D</button>
+    <button onclick="bokstaver(this.innerHTML)">E</button>
+    <button onclick="bokstaver(this.innerHTML)">F</button>
+    <button onclick="bokstaver(this.innerHTML)">G</button>
+    <button onclick="bokstaver(this.innerHTML)">H</button>
+    <button onclick="bokstaver(this.innerHTML)">I</button><br>
+    <button onclick="bokstaver(this.innerHTML)">J</button>
+    <button onclick="bokstaver(this.innerHTML)">K</button>
+    <button onclick="bokstaver(this.innerHTML)">L</button>
+    <button onclick="bokstaver(this.innerHTML)">M</button>
+    <button onclick="bokstaver(this.innerHTML)">N</button>
+    <button onclick="bokstaver(this.innerHTML)">O</button>
+    <button onclick="bokstaver(this.innerHTML)">P</button>
+    <button onclick="bokstaver(this.innerHTML)">Q</button>
+    <button onclick="bokstaver(this.innerHTML)">R</button>
+    <button onclick="bokstaver(this.innerHTML)">S</button><br>
+    <button onclick="bokstaver(this.innerHTML)">T</button>
+    <button onclick="bokstaver(this.innerHTML)">U</button>
+    <button onclick="bokstaver(this.innerHTML)">V</button>
+    <button onclick="bokstaver(this.innerHTML)">W</button>
+    <button onclick="bokstaver(this.innerHTML)">X</button>
+    <button onclick="bokstaver(this.innerHTML)">Y</button>
+    <button onclick="bokstaver(this.innerHTML)">Z</button>
+    <button onclick="bokstaver(this.innerHTML)">Æ</button>
+    <button onclick="bokstaver(this.innerHTML)">Ø</button>
+    <button onclick="bokstaver(this.innerHTML)">Å</button>
+
+    <script>
+        outputTxt = document.getElementById('output')
+
+        function bokstaver(bokstav) {
+            outputTxt.innerHTML += bokstav;
+        }
+    </script>
+</body>
+
+</html>
